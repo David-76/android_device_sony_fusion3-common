@@ -31,3 +31,6 @@ include $(COMMON_PATH)/product/*.mk
 
 # Vendor common configurations
 $(call inherit-product, vendor/sony/fusion3-common/fusion3-common-vendor.mk)
+
+# Include Sony Framework
+$(call inherit-product, vendor/sony/framework/framework-vendor.mk)
